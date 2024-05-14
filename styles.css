@@ -1,0 +1,133 @@
+* {
+  padding-left: 5px;
+  padding-right: 0px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+.list-item {
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 20px;
+}
+.list-item:first-child,
+.list-item:hover {
+  color: orangered;
+  font-weight: bold;
+}
+.body {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.content {
+  padding-top: 70px;
+}
+.content2 {
+  padding-top: 10px;
+  padding-right: 70px;
+  position: relative;
+}
+.text1 {
+  font-size: 30px;
+}
+.text2 {
+  padding-top: 10px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.img1 {
+  width: 500px;
+}
+.circle {
+  padding-left: 70px;
+  padding-top: 30px;
+}
+.content-circle {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+.circle-text {
+  font-size: 30px;
+  padding-left: 15px;
+}
+.discount {
+  position: absolute;
+  background-image: url(./Assets/discount.svg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  top: 300px;
+  left: -55px;
+  z-index: 10;
+  text-align: center;
+}
+.discount-text {
+  padding-top: 60px;
+  font-size: 20px;
+  padding-right: 28px;
+  color: white;
+}
+.percent {
+  font-size: 53px;
+  color: white;
+  font-weight: bolder;
+}
+.content-text {
+  padding-top: 35px;
+  color: gray;
+  text-wrap: wrap;
+  align-items: center;
+  width: 600px;
+}
+.btn {
+  height: 44px;
+  width: 142px;
+  border-radius: 23px;
+  background-color: orangered;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+.content-button {
+  display: flex;
+  flex-direction: row;
+  padding-top: 158px;
+}
+
+.dots {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 70px 0 206px;
+}
+
+.yellow-dot {
+  border: 10px solid yellow;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.red-dot {
+  border: 10px solid red;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.black-dot {
+  border: 10px solid black;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.btn3 {
+  padding: 10px 0 0 187px;
+}
